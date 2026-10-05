@@ -1,0 +1,25 @@
+# Tüm projelerdeki node_modules klasörlerini engeller
+**/node_modules/
+
+# Tüm projelerdeki build / log çıktılarını engeller
+**/dist/
+**/build/
+**/*.log
+**/.tsbuildinfo
+
+# =========================================================================
+# GÜVENLİK VE ÖZEL DOSYALAR
+# =========================================================================
+
+# İleride ekleyebileceğiniz gizli anahtar/environment dosyalarını korur
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# İşletim sistemi ve IDE kalıntıları
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
