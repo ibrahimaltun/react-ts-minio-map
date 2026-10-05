@@ -121,8 +121,8 @@ Uygulama kapsamında harita üzerinde listelenen koordinatlar ve MinIO nesne eş
 Leaflet kütüphanesinin CSS yapılandırması ya da varsayılan ikon pikselleri eksik olduğunda harita kayabilir. Projede bu durum `App.tsx` içerisinde standart boyutlar atanarak çözülmüştür:
 
 ```typescript
-iconSize:,
-iconAnchor:,
+iconSize: [25, 41],
+iconAnchor: [12, 41],
 ```
 
 #### 2. `TypeError: Cannot read properties of undefined (reading 'fileExists')` hatası nedir?
